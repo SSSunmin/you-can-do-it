@@ -1,2 +1,2 @@
-# Recoil_TodoList
-- Recoil 공식 사이트 보고 만든 Recoil 예제입니다. 
+# 하루 한번
+- Recoil로 만드는 간단한 Todolist
