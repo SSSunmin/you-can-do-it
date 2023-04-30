@@ -1,20 +1,29 @@
-import React from 'react';
-import{
+import React from "react";
+import {
   RecoilRoot,
   atom,
   selector,
   useRecoilState,
-  useRecoilValue
-} from 'recoil'
-import './App.css';
-import {Todolist} from './TodoList';
-
-
+  useRecoilValue,
+} from "recoil";
+import "./App.css";
+import { Todolist } from "./TodoList";
+import { css } from "@emotion/css";
 
 function App() {
   return (
     <RecoilRoot>
-      <Todolist/>
+      <div
+        className={css`
+          height: 100vh;
+          width: 100vw;
+          display: flex;
+          justify-content: center;
+          background-color: #ffeddb;
+        `}
+      >
+        <Todolist />
+      </div>
     </RecoilRoot>
   );
 }
