@@ -7,7 +7,7 @@
 ##  :computer: 기술스택
  <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white"> <img src="https://img.shields.io/badge/recoil-0076EC?style=for-the-badge&logo=recoil&logoColor=white">  <img src="https://img.shields.io/badge/emotion-C43BAD?style=for-the-badge&logo=emotion&logoColor=white"> 
  
-## Features
+## 📝Features
 * home
    - 달력 불러오기
      - 할일이 등록된 날짜에는 빨간 점으로 표시
